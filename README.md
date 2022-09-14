@@ -1,2 +1,2 @@
 # trybe-exercicios
-Repositório para treinar o conhecimento
+# Meu repositório de exercícios 
