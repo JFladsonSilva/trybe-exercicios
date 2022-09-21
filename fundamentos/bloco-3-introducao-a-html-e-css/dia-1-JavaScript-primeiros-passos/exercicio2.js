@@ -26,3 +26,12 @@
 // } else {
 //     console.log(0)
 // }
+//EXERCICIO5
+const aTri1 = 60;
+const aTri2 = 60;
+const aTri3 = 60;
+if (aTri1 + aTri2 + aTri3 == 180){
+    console.log(true)
+} else {
+    console.log(false)
+}
