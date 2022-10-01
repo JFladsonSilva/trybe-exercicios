@@ -77,9 +77,8 @@
 //   };
 //   for(let index in car){
 //     console.log(car[index])
-//   }
-const object = { a: 1, b: 2, c: 3 };
-
-for (const property in object) {
-  console.log(property + ' = ' + object[property]);
+//   }ex
+function soma(){
+    result = 5 + 5
+    return result;
 }
