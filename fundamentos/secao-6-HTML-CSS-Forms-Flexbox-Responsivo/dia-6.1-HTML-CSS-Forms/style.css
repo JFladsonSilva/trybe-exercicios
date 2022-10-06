@@ -1,0 +1,8 @@
+textarea {
+    resize: none;
+  }
+
+#conteiner {
+    border: 3px black solid;
+    padding: 20px;
+}

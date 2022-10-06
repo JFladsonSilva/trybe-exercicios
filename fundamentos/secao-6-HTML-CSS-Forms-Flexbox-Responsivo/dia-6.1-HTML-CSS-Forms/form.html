@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 id="titulo">TrybeTrip</h1>
+    
+    <div id="conteiner">
+        
+    <form action="" method="get" id="formulario">
+
+        <!-- campo nome e email -->
+
+        <section>
+
+            <label for="nome">Name:</label>
+            <input type="text" minlength="10" maxlength="50" name="nome" placeholder="Digite seu Nome"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" minlength="10" maxlength="50" placeholder="email" name="email">
+
+        </section>
+
+        <!-- CAMPO OPÇÕES -->
+
+        <section>
+            <p><strong>Qual seu destino preferido?</strong></p>
+
+            <input type="checkbox" value="cidade" name="op1"><label for="">Cidade</label>
+
+            <input type="checkbox" value="campo" name="op2"><label for="op2">Campo</label>
+
+            <input type="checkbox" value="praia" name="op3"><label for="op3">Praia</label>
+
+            <input type="checkbox" value="montanhas" name="op4"><label for="op4">Montanhas</label>
+        </section>
+        <br>
+
+        <!-- CAMPO PARA DIGITAR RESPOSTA -->
+
+        <section>
+
+            <label for="resposta">Espaço para digitar a resposta:</label><br>
+            <textarea maxlength="500" name="resposta" id="espaçoDig" cols="30" rows="10"></textarea>
+
+        </section>
+        <section>
+
+            <input type="date" value="data">
+
+        </section>
+
+        <section>
+        
+            <input type="checkbox" value="concordo1">
+            <label for="concordo1">Concordo coom os termos</label><br>
+            
+            <input type="checkbox" value="concordo2">
+            <label for="concordo2">Concordo com a polótica.</label>
+
+        </section>
+       </div>
+
+        <button type="submit" class="botao">Enviar</button>
+        <button type="reset" class="botao">Apagar</button>
+    </form>
+</body>
+
+</html>
