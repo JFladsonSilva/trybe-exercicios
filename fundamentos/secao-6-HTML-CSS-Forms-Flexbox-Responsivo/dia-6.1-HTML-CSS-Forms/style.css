@@ -1,8 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    text-align: center;
+    background-color: cadetblue;
+    color: dimgray;
+}
+h1 {
+    margin: 0;
+}
+#top-bar{
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+}
 textarea {
     resize: none;
+    border: dimgray solid 3px;
+    border-radius: 5px;
   }
 
 #conteiner {
-    border: 3px black solid;
+    border: 3px dimgray ;
     padding: 20px;
+    width: 900px;
+    margin: auto;
+    text-align: left;
+    background-image: url("images/travel-concept-with-baggage.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+button{
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+}
+#rodape {
+    height: 40px;
+    width: 100%;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
 }
